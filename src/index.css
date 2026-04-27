@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+
+body {
+  background-color: #22093a;
+  color: white;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+input {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ff3b2e;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem auto;
+  max-width: 1000px;
+  font-family: "Caveat", cursive;
+}
+li {
+  background-color: #0d184b;
+  margin: 0.5rem 0;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Caveat", cursive;
+  border-radius: 20px;
+  width: 100%;
+}
+li button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+}
+li button:hover {
+  background-color: #ff3b2e;
+}
+.btns {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+li p {
+  margin: 0;
+  flex: 1;
+  font-size: 2.5rem;
+}
+li span {
+  margin-right: 0.5rem;
+  color: #888;
+  font-size: 1.8rem;
+}
+li button {
+  margin-left: 0.5rem;
+}
+li p.done {
+  text-decoration: line-through;
+  color: #888;
+}
